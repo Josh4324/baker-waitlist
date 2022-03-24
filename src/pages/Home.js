@@ -15,7 +15,6 @@ export default function Home() {
 
       let regex =
         /^[\/\!#\$\%&'\*\+\-\=\?\^_`\{\|\}~A-Za-z0-9]+[\.-]?[\/\!#\$\%&'\*\+\-\=\?\^_`\{\|\}~A-Za-z0-9]*@\w+([\.-]?\w+)*(\.\w{2,40})+$/;
-      console.log(regex.test(emailRef.current.value));
       if (regex.test(emailRef.current.value) === false) {
         emailRef.current.value = "";
         return NotificationManager.error(
@@ -24,10 +23,11 @@ export default function Home() {
         );
       }
       NotificationManager.info("Email sent to waitlist", "Info");
+      let emailValue = emailRef.current.value;
       const res = await axios.post(
         `https://attendance.bakerindustries.io/api/v1/email`,
         {
-          email: emailRef.current.email,
+          email: emailValue,
         }
       );
       console.log(res);
