@@ -113,7 +113,7 @@ export default function Home() {
         </section>
       </main>
       <section className="section4">
-        <div className="click">It Takes Just A Click</div>
+        <div className="click">Enter your email and let’s get started</div>
         <a href="#email">
           <button className="access">Get early access</button>
         </a>
