@@ -20,7 +20,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div>&copy;2022 Baker Industries Ltd.All rights Reserved</div>
+      <div className="footer-f">
+        &copy; 2022 Baker Industries Ltd.All rights Reserved
+      </div>
     </div>
   );
 }

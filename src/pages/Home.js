@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <div className="emailbody">
               <div className="email">Email Address</div>
-              <div className="dflexnpm run buil">
+              <div className="dflex ">
                 <input
                   type="text"
                   className="email-input"

@@ -141,8 +141,8 @@
   font-weight: 700;
   color: #000000;
   margin-top: 100px;
-  width: 40%;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .header2-text {
@@ -150,6 +150,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  text-align: center;
 }
 
 .section3 {
@@ -249,6 +250,15 @@
 .footer-detail {
   display: flex;
   justify-content: space-between;
+}
+
+.footer-f {
+  font-family: "TruenoBd";
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 34px;
 }
 
 @media (max-width: 1240px) {
@@ -406,11 +416,30 @@
 @media (max-width: 500px) {
   .build {
     width: 300px;
-    top: 95%;
+    top: 70%;
+  }
+
+  .simg {
+    padding-top: 12px;
+  }
+
+  .click {
+    font-size: 14px;
+  }
+
+  .header5 {
+    font-family: "TruenoBd";
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .header2 {
+    font-size: 16px;
+    font-weight: 700;
   }
 
   .discover {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .footer-inner {
@@ -424,7 +453,6 @@
   }
 
   .dflex {
-    flex-direction: column;
     display: flex;
   }
 
@@ -433,10 +461,22 @@
     margin-bottom: 10px;
     padding-left: 5px;
     border-radius: 4px;
+    font-size: 10px;
+    height: 35px;
   }
 
   .email-button {
-    width: 50%;
+    font-size: 10px;
+  }
+
+  .access {
+    font-size: 14px;
+    height: 30px;
+  }
+
+  .email-button {
+    width: 35%;
+    height: 35px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -446,4 +486,7 @@
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 300px) {
 }

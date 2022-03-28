@@ -10,13 +10,39 @@ export default function Header() {
         <div className="social-full">
           <div className="shead">@BakerIndustries_ </div>
           <div className="social">
-            <img className="simg" src="./images/facebook.svg" alt="facebook" />
-            <img className="simg" src="./images/linkedin.svg" alt="linkedin" />
-            <img
-              className="simg"
-              src="./images/instagram.svg"
-              alt="instagram"
-            />
+            <a
+              href="https://facebook.com/bakerindustriesng"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="simg"
+                src="./images/facebook.svg"
+                alt="facebook"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/bakerindustries/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="simg"
+                src="./images/linkedin.svg"
+                alt="linkedin"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/bakerindustries_/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="simg"
+                src="./images/instagram.svg"
+                alt="instagram"
+              />
+            </a>
           </div>
         </div>
       </div>
