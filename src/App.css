@@ -419,6 +419,10 @@
     top: 70%;
   }
 
+  .section1-inner {
+    margin-top: 50px;
+  }
+
   .simg {
     padding-top: 12px;
   }
