@@ -481,8 +481,6 @@
     border-radius: 4px;
     font-size: 10px;
     height: 35px;
-    position: relative;
-    z-index: 100;
   }
 
   .email-button {
@@ -491,6 +489,8 @@
 
   .emailbody {
     margin-top: 30px;
+    position: relative;
+    z-index: 100;
   }
 
   .access {
