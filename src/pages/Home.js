@@ -91,8 +91,7 @@ export default function Home() {
               Being on our waitlist gives you early access to our various
               amazing offers. Here, it's you before anybody else. You'll be the
               first to know when new assets arrive, and view before the whole
-              world does. Just like the elite groups, You wouldn't want to skip
-              this offer!
+              world does. You wouldn't want to skip this offer!
             </div>
           </div>
           <div className="box-shd">

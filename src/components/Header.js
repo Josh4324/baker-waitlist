@@ -8,7 +8,6 @@ export default function Header() {
           <img className="logo" src="./images/logo.svg" alt="logo" />
         </div>
         <div className="social-full">
-          <div className="shead">@BakerIndustries_ </div>
           <div className="social">
             <a
               href="https://facebook.com/bakerindustriesng"
