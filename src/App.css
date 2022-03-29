@@ -417,6 +417,7 @@
   .build {
     width: 300px;
     top: 57%;
+    position: absolute;
   }
 
   .section3 {
@@ -480,6 +481,8 @@
     border-radius: 4px;
     font-size: 10px;
     height: 35px;
+    position: relative;
+    z-index: 100;
   }
 
   .email-button {
