@@ -8,15 +8,17 @@ export default function Footer() {
 
         <div>
           <div className="footer-header">Send us an email</div>
-          <div className="footer-text">@bakerindustries.io</div>
+          <div className="footer-text">Contact@bakerindustries.io</div>
         </div>
         <div>
           <div className="footer-header">Office Number</div>
-          <div className="footer-text">+23481647949564</div>
+          <div className="footer-text">016344119</div>
         </div>
         <div>
           <div className="footer-header">Visit us </div>
-          <div className="footer-text">N0,6,Ikeja,Lagos,Nigeria</div>
+          <div className="footer-text">
+            N0,74, Oduduwa Crescent, Ikeja GRA, Lagos,Nigeria
+          </div>
         </div>
       </div>
 

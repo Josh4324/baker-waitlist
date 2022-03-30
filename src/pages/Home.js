@@ -25,7 +25,7 @@ export default function Home() {
       NotificationManager.info("Email sent to waitlist", "Info");
       let emailValue = emailRef.current.value;
       const res = await axios.post(
-        `https://attendance.bakerindustries.io/api/v1/email`,
+        `https://waitlist.bakerindustries.io/api/v1/email`,
         {
           email: emailValue,
         }
@@ -36,6 +36,11 @@ export default function Home() {
         NotificationManager.success("Email added to waitlist", "Success");
       }
     } catch (err) {
+      console.log(err.response);
+      if (err.response.data.message) {
+        emailRef.current.value = "";
+        return NotificationManager.error(err.response.data.message, "Error");
+      }
       emailRef.current.value = "";
       NotificationManager.error("An error occurred", "Error");
     }

@@ -42,6 +42,13 @@ export default function Header() {
                 alt="instagram"
               />
             </a>
+            <a
+              href="https://twitter.com/bakerind_"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="simg" src="./images/twitter.svg" alt="twitter" />
+            </a>
           </div>
         </div>
       </div>
